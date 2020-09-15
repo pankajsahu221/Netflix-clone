@@ -9,6 +9,10 @@ Try it now.
 
 https://netflix-clone-6d2bc.web.app/
 
+![screenshot](https://github.com/pankajsahu221/Netflix-clone/blob/master/src/netflix-shot.JPG)
+
+![screenshot](https://github.com/pankajsahu221/Netflix-clone/blob/master/src/netflix-shot2.JPG)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
