@@ -2,7 +2,7 @@
 
 * User can see the Trending, Top rated, action, and all other categories at the homepage.
 * User can search for movies, TV series.
-* User can get the details of the movie, TV series like rating, release date, overview etc.
+* User can get the details of the movie, TV series like rating, release date, overview, genres, cast etc.
 * User can also play trailer of the movie, TV series.
 
 Try it now.
@@ -11,9 +11,9 @@ https://netflix-clone-6d2bc.web.app/
 
 ![screenshot](https://github.com/pankajsahu221/Netflix-clone/blob/master/src/netflix-shot.JPG)
 
-![screenshot](https://github.com/pankajsahu221/Netflix-clone/blob/master/src/netflix-shot3.JPG)
+![screenshot](https://github.com/pankajsahu221/Netflix-clone/blob/master/src/netflix-shot3new.JPG)
 
-![screenshot](https://github.com/pankajsahu221/Netflix-clone/blob/master/src/netflix-shot2.JPG)
+![screenshot](https://github.com/pankajsahu221/Netflix-clone/blob/master/src/netflix-shot2new.JPG)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
