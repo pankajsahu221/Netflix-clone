@@ -5,6 +5,11 @@
 .row-title {
   margin-left: 20px;
 }
+@media screen and (max-width:550px){
+  .row-title{
+      font-size: 20px;   
+  }
+}
 .row-posters {
   display: flex;
   /* flex-direction: row; */

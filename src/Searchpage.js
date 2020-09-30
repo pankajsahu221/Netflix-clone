@@ -21,7 +21,7 @@ function Searchpage() {
           <Nav/>
           <div className="searchpage">
              <form>
-                 <input type="text" ref={inputRef} placeholder="Search movies, TV series"/>
+                 <input type="text" ref={inputRef} placeholder="Search movies"/>
                  
                 <button onClick={handleClick}>
                        <SearchIcon/>

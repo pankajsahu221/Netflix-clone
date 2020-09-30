@@ -5,12 +5,17 @@
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width: 700px){
+    .searchpage{
+        padding: 1.5rem ;
+    }
+}
 .searchpage form{
     height: 45px;
     width: 80vmin;
     min-width: 4rem;
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: 0.4vh;
     display: flex;
     align-items: center;
     justify-content: center;

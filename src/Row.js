@@ -3,14 +3,17 @@ import "./Row.css";
 import axios from "./axios"; //the js file we created to link baseUrl to fetchUrl
 // import YouTube from "react-youtube";
 // import movieTrailer from "movie-trailer";
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 const base_url = "https://image.tmdb.org/t/p/original/"; //baseUrl to get img
 
-function Row({ title, fetchUrl, isLargeRow }) {
+function Row({ title, fetchUrl, isLargeRow, isTv }) {
   const history = useHistory();
 
   const [movies, setMovies] = useState([]);
+  let catlink = "movie" ; 
+
+  if(isTv === true ) catlink = "tv"
 
   useEffect(() => {
     async function fetchData() {
@@ -35,18 +38,18 @@ function Row({ title, fetchUrl, isLargeRow }) {
           //for first row we are adding another class to make it bigger
           return (
             <img
-              key={movie.id}
+              key={movie?.id}
               // onClick={() => handleClick(movie)}
               onClick={() =>
                 history.push(
-                  `/${movie?.title || movie?.name || movie.original_title || ""}`
+                  `${catlink}/${movie?.id}`
                 )
               }
               src={`${base_url}${
-                isLargeRow ? movie.poster_path : movie.backdrop_path
+                isLargeRow ? movie?.poster_path : movie?.backdrop_path
               }`}   
               className={`row-poster ${isLargeRow && "row-poster-large"}`}
-              alt={movie.name}
+              alt={movie?.name}
             />
           );
         })}

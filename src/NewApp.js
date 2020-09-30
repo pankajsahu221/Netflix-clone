@@ -4,7 +4,7 @@ import App from "./App";
 import MovieDetail from "./MovieDetail";
 import Searchpage from "./Searchpage";
 import Searchresult from "./Searchresult";
-import Detail from "./Detail";
+// import Detail from "./Detail";
 
 
 function NewApp() {
@@ -15,8 +15,7 @@ function NewApp() {
           <Route path="/" exact component={App} />
           <Route path="/Searchpage" exact component={Searchpage}/>
           <Route path="/Searchpage/:titlename" exact component={Searchresult}/>
-          <Route path="/Searchpage/:titlename/:Title" component={Detail}/>
-          <Route path="/:name" exact component={MovieDetail} />
+          <Route path="/:catlink/:id" exact component={MovieDetail} />
         </Switch>
       </div>
     </Router>
