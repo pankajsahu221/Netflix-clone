@@ -1,5 +1,5 @@
 ## Netfilx clone built using ReactJS.
-
+ 
 * User can see the Trending, Top rated, action, and all other categories at the homepage.
 * User can search for movies, TV series.
 * User can get the details of the movie, TV series like rating, release date, overview, genres, cast etc.
